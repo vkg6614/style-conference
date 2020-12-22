@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	height: 180px;
+	border: 1px solid black;
+	background-color: rgb(41,63,80);
+
+}
+html {
+	float-size: 62.5%;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-position: left;
+}
+
+li {
+	display: inline-block;
+	
+}
+
+code {
+text-transform: capitalize;
+font-size: 1.5rem;
+text-align: right;
+font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	display: inline-block;
+}
+.s-conf {
+float:left;
+font-size: 3rem;  
+font-weight: 100;
+line-height: 40px;
+text-transform: uppercase;
+}
+
+.s-conf:hover{
+color: #648880;
+cursor: pointer;
+}
+
+a:hover{
+color: #648880;
+pointer-events: all;
+}
+
+.list-item {
+float:right;
+text-align: right;
+line-height: 2rem;
+margin-top: 1.4em;
+}
+.container {
+max-width: 80%;
+width: 1200px;
+margin:2em auto;
+}
+.container::after{
+content: "";
+clear: both;
+display: block;
+}
+.margin {
+	margin:0 1em;
+}
+.text-white {
+color: #fff;
+}
+.text-green {
+color: #648880;
+
+}
+.text-blue {
+color: rgb(100,168,206);
+}
+.text-grey {
+color:rgb(0,0,0,0.4);
+}
+
+
+.gradient {
+	height: 220px;
+	background: linear-gradient(to right, rgb(168,213,179), rgb(242,239,209));
+    text-align: center;
+    border: 1px solid black;   
+}
+.speak {
+	font-size: 2rem;
+	font-weight: 100;
+padding-bottom: 0.7em;
+}
+.para {
+	line-height: 30px;
+	font-size: 1.2rem;
+	padding-bottom: 1em;
+	color: rgba(0,0,0,0.5);
+}
+	/*###########section styling #########*/
+.hd-first {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin-bottom:0.5em;
+	color: rgba(0,0,0,0.5);
+}
+.para-first {
+    font-weight: 500;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	margin-bottom:2em;
+	color: #c2c3c5;
+}
+.para-second {
+color: rgba(0,0,0,0.5);
+margin-bottom:1.6em;
+}
+.para-third {
+color: #c2c3c5;
+margin-bottom:1.8em;
+}
+.para-fourth {
+color: rgba(0,0,0,0.5);
+}
+.main {
+
+}
+.aaron,.adam,.aj,.arman,.bermon,.brad,.carolyn,.jen,.shay,.vitaly {
+
+padding-top: 4em;
+}
+.aaron::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.adam::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.aj::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.aaron::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.arman::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.bermon::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.brad::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.carolyn::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.jen::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.shay::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.vitaly::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.border {
+border: 1px solid black;;
+margin-top: 6em;
+	width:30%;
+	height: 150px;
+	float: right;
+	border-radius: 5px;
+	position: relative;
+	color: rgba(0,0,0,0.5);
+	border-color: rgba(0,0,0,0.2);
+}
+
+.main .left {
+	width: 65%;
+	float: left;
+
+}
+img {
+margin-top: 0.4em;
+margin-right:0.3em;
+display: inline-block;
+width: 50%;
+border-radius: 50%;
+position: absolute;
+top: -50%;
+left:30%;
+
+}
+.hover a:link {
+	color: rgba(100,136,128,0.9);
+}
+.hover a:hover {
+color: rgba(100,136,128,0.6);
+}
+.hover a {
+	position: absolute;
+	bottom: 10%;
+display: block;		
+width:100%;
+text-align: center;
+text-transform: lowercase;
+}
+
+
+
+/*#######start of footer styling#####################*/
+footer {
+    height: 120px;
+    background-color: rgb(41,63,80);
+}
+footer .left {
+	float: left;
+    font-size:1.2rem;    
+    margin-top: 3em;
+    
+}
+footer .float-right {
+    
+ 
+	float: right;
+}
+.float-right li a {
+	font-size:0.8rem;
+	font-weight: 100;
+	padding-right: 1.5em;
+	
+	text-transform: capitalize;
+	text-decoration: none;
+}
+footer ul li a{
+	margin-top: 4em;
+}
